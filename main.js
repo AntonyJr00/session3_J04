@@ -84,9 +84,11 @@ function orden(parametro) {
 orden("nombre");
 
 //ejercicio 8 y 9--------------------
+
 div = document.querySelector(".cont");
 div.style.display = "grid";
 div.style.placeContent = "center";
+
 let btn = document.createElement("button");
 div.append(btn);
 btn.textContent = "Aceptar";
